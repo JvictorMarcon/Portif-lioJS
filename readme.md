@@ -37,7 +37,7 @@ O projeto conta com um script que captura a data e hora do sistema e a exibe for
 
 ## 🚀 Como Visualizar
 
-1.  Clone este repositório:
+1.  Clone este repositório: https://github.com/JvictorMarcon/Portif-lioJS.git
 2.  Certifique-se de que as pastas `Exercicio 1`, `Exercicio 2` e `Exercicio 3` estão no mesmo diretório do `index.html`.
 3.  Abra o arquivo `index.html` no seu navegador de preferência.
 
