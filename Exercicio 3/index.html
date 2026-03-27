@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Transporte de colaboradores</title>
+    <link rel="stylesheet" href="/Exercicio 3/style.css">
+</head>
+
+<body>
+    <div class="card">
+        <h2>Transporte de colaboradores</h2>
+        <div id="data-hora" class="data-hora">
+    </div>
+
+        <div class="group">
+            <label for="salario">Quantidade de funcionários</label>
+            <input type="number" id="quant_funcionarios" placeholder="Ex: 10">
+        </div>
+        <div class="group">
+            <label for="salario">Quantidade de dias</label>
+            <input type="number" id="quant_dias" placeholder="Ex: 30">
+        </div>
+
+        <button onclick="calcular_valor()">Calcular valor</button>
+
+        <hr>
+
+        <div class="group">
+            <label>Valor (R$)</label>
+            <input type="text" id="resultado" class="resultado" readonly>
+        </div>
+        <a href="/index.html"><button>voltar para a index</button></a>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de horas extras</title>
+    <link rel="stylesheet" href="/Exercicio 1/style.css">
+</head>
+
+<body>
+    <div class="card">
+        <h2>Calculadora de Horas</h2>
+        <div id="data-hora" class="data-hora">
+        </div>
+
+        <div class="group">
+            <label for="salario">Salário Mensal (R$)</label>
+            <input type="number" id="salario" placeholder="Ex: 2500">
+        </div>
+
+        <div class="group">
+            <label for="horasSemana">Horas(Semana)</label>
+            <input type="number" id="horasSemana" placeholder="Qtd de horas">
+        </div>
+
+        <div class="group">
+            <label for="horasFimSemana">Horas Extras(Fim de Sem.)</label>
+            <input type="number" id="horasFimSemana" placeholder="Qtd de horas">
+        </div>
+
+        <button onclick="calcular()">Calcular Total</button>
+
+        <hr>
+
+        <div class="group">
+            <label>Valor Total a Receber (R$)</label>
+            <input type="text" id="resultado" class="resultado" readonly>
+        </div>
+        <a href="/index.html"><button>voltar para a index</button></a>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

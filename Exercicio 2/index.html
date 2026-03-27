@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Aumento de salário</title>
+    <link rel="stylesheet" href="/Exercicio 2/style.css">
+</head>
+
+<body>
+    <div class="card">
+        <h2>Aumento de salário</h2>
+        <div id="data-hora" class="data-hora">
+        </div>
+
+        <div class="group">
+            <label for="salario">Salário Mensal (R$)</label>
+            <input type="number" id="salario" placeholder="Ex: 2500">
+        </div>
+
+        <button onclick="calcular_aumento()">Calcular Aumento</button>
+
+        <hr>
+
+        <div class="group">
+            <label>Novo salário (R$)</label>
+            <input type="text" id="resultado" class="resultado" readonly>
+        </div>
+        <a href="/index.html"><button>voltar para a index</button></a>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
